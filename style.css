@@ -1,0 +1,155 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size:3.625rem;
+}
+
+.typing{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    color:gray;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 55% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent; }
+  }
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2rem;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:gray;
+}
+.intro{
+    /*background-image:url("https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+    height:496px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.image{
+    height:300px;
+    position:relative;
+    margin:auto;
+    align-content: center;
+}
+
+.web-dev{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Wordpress{
+    width:25%;
+    float:right;
+    margin-left:30px;
+}
+
+.profile{
+  background:rgb(231, 179, 231);
+  margin: auto;
+}
+
+.desc{
+    line-height:2;
+    color:rgba(15, 10, 10, 0.678);
+    margin:auto;
+}
+
+hr{
+    border:dotted #EAF6F6 6px;
+    border-bottom: none;
+    width:4%;
+    margin: 100px auto;
+}
+.bottom-container{
+    background:rgb(231, 179, 231);
+ color:rgba(15, 10, 10, 0.678);
+ padding: 50px 0 20px;
+}
+
+.btn{
+
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(156, 101, 156);
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0 9px #999;
+    margin: 50px 50px 50px;
+  }
+  
+  .btn:hover {background-color: gray}
+  
+  .btn:active {
+    background-color:  rgb(156, 101, 156);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.skill-row{
+    width:50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height:2; /*space out text */
+}
+
+.footer-link{
+    text-decoration: none;
+    margin:10px 20px;
+    color:purple;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    color:white;
+}
+
+.projects{
+   /* background:rgb(231, 179, 231); */
+    margin: auto;
+
+}
+
+.card-deck{
+    margin:50px 70px;
+    border-radius: 50%;
+}
+
+/*.card-text{
+    display: none;
+}
+
+.card-text:hover{
+    display: block;
+}
+*/
